@@ -24,7 +24,7 @@ const Home = ({skills}:Props) => {
         <title>Eurels Portfolio</title>
       </Head>
       
-   
+   <Header/>
       
       <section
         id="hero" className='snap-start' >
