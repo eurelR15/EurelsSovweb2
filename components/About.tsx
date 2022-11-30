@@ -19,7 +19,7 @@ export default function About({}:Props) {
         transition={{duration:1.2}}
         whileInView={{opacity:1,x:0}}
         viewport={{ once: true}}
-        src="https://scontent-jnb1-1.xx.fbcdn.net/v/t39.30808-6/313415537_941794110120116_4809559805842776386_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEV_xTor8B2hQin2e4C-ox0MgkfMDHBZL4yCR8wMcFkvqX7nXiylkA_fdRVEafC8Sm_-okQIgc4_SPqtR_ghU8Q&_nc_ohc=_ES5LDwLpwMAX9Yb9Xz&_nc_ht=scontent-jnb1-1.xx&oh=00_AfCgph6N5hRXdoHfVfaFrWbQCsMfi0vR638FW6sRm6Nv8w&oe=636D31ED"
+        src="https://scontent-jnb1-1.xx.fbcdn.net/v/t39.30808-6/317318425_957882485177945_228191396974284150_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHT0mtMmfBe2xhDGcVqfl57i5fGM4qvSb-Ll8Yziq9Jv4ITCGsKm4eBM7Qd5v7Hk25p9McgL05FGZPsGKl6xWtP&_nc_ohc=C_l9yUswdnwAX-foBA6&_nc_ht=scontent-jnb1-1.xx&oh=00_AfDz-gedGcjpiko_9dH3i7ca9Es9B3fylW0MfTi_TCaZaQ&oe=638BB58E"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 full object-cover md:rounded-lg md:w-54 md:h-55 xl:w[250px] xl:h-[250px]"/>
         <div className="spcae-y-10 px-0 md:px-10">
             <h4 className="text-3xl font-semibold">
