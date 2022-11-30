@@ -16,7 +16,7 @@ export default function Hero({}:Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
         <BackgroundCircles />
         <img className="relative full h-32 w-32 mx-auto object-cover"
-        src="https://imgs.search.brave.com/_totggp2liE6esYYbuBfO-2IQ8vjhgN8VArf9gXTmIM/rs:fit:400:115:1/g:ce/aHR0cHM6Ly9ldXJl/bC5zaS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wNS9ldXJl/bF9sb2dvLnBuZw" alt=""/>
+        src="https://scontent-jnb1-1.xx.fbcdn.net/v/t39.30808-6/317065706_956504521982408_8655077013845230393_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFnS-ivn4luCyDFvFfumJ7CDcbGCyZCizoNxsYLJkKLOu-UfiuN1aLVgkOhC6yhoo_4aLvswhpgmA1X66JoUuBD&_nc_ohc=uN_VPZroH4QAX9iIpft&tn=7hWm7Chr3EBn8pFs&_nc_ht=scontent-jnb1-1.xx&oh=00_AfD7uFNcX_zJmSskImy3R3rd9tMPxg3vC5HlUtgymF5MTw&oe=638D6D96" alt=""/>
         <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Developer</h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
