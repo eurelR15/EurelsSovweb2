@@ -16,7 +16,7 @@ export default function Hero({}:Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
         <BackgroundCircles />
         <img className="relative full h-32 w-32 mx-auto object-cover"
-        src="https://scontent-jnb1-1.xx.fbcdn.net/v/t39.30808-6/313257941_941595236806670_5822694382301098093_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEnivx2X5kUUjvipzL6gTpUFkQ7lOFnylMWRDuU4WfKUxskZMIoyeZX6_Vd7hzhhzzvT9pzQRPfICBWzCFYyAYY&_nc_ohc=n34cvuzVdi4AX8vqJ1_&_nc_ht=scontent-jnb1-1.xx&oh=00_AfCb9w3q3FKkmOHsouX2rHvCw99xENbajAUxtwp2WD5zEw&oe=636DC35A" alt=""/>
+        src="https://scontent-jnb1-1.xx.fbcdn.net/v/t39.30808-6/313415537_941794110120116_4809559805842776386_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEV_xTor8B2hQin2e4C-ox0MgkfMDHBZL4yCR8wMcFkvqX7nXiylkA_fdRVEafC8Sm_-okQIgc4_SPqtR_ghU8Q&_nc_ohc=8e30Rk05HP4AX_JEqz-&_nc_ht=scontent-jnb1-1.xx&oh=00_AfB-OZp7wngpIKo151lbKMqDDCCMx6-5FZRFlsigozljfA&oe=638CD5ED" alt=""/>
         <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Developer</h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
