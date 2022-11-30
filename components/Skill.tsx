@@ -1,11 +1,9 @@
 import React from "react"
 import { motion } from "framer-motion";
 
-type Props = {
+type Props = {};
 
-};
-
-function Skill(}: Props) {
+function Skill({}: Props) {
   return (
     <div className="group relative flex cursor-pointer">
         <motion.img
