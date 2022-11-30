@@ -7,17 +7,12 @@ import WhySovtech from "../components/WhySovtech";
 import ContactMe from '../components/ContactMe';
 import Link from "next/link";
 import Skills from "../components/Skills"
-import {Skill} from '../typings'
-import { fetchSkills } from '../utils/fetchSkills';
 
 
 
 type Props={
-  skills:Skill[];
-
-
 };
-const Home = ({skills}:Props) => {
+const Home = ({}:Props) => {
   return (
     <div className='bg-[rgb(36,32,32)] text-white h-screen snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-pink-400/20  scrollbar-thumb-[#785b73]/80'>
       <Head>
@@ -41,7 +36,7 @@ const Home = ({skills}:Props) => {
       </section>
 
       <section id="skills" className='snap-start'>
-        <Skills skills={skills}/>
+        <Skills />
       </section>
     
     
@@ -67,16 +62,6 @@ const Home = ({skills}:Props) => {
 
 export default Home;
 
-export const getStacicProps: GetStaticProps<Props>=async ()=>{
-  const skills:Skill[] = await fetchSkills();
 
-  return{
-    props:{
-      skills,
-   
-
-      revalidate:10,
-    }
-  }
 
 }
