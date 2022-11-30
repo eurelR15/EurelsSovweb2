@@ -1,14 +1,13 @@
 import React from "react";
 import{ motion} from "framer-motion";
-import {Skill as SkillType} from "../typings"
-import Skill from ".//Skill";
+
 
 type Props = {
-  skills:SkillType[]
+ 
 
 }
 
-function Skills({skills}: Props){
+function Skills({}: Props){
   return (
   
     <motion.div
